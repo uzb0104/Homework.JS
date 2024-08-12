@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+        padding-top: 50px;
+        font-size: 50px;
+        color: blueviolet;
+      }
+
+      select {
+        font-size: 35px;
+        margin-left: 660px;
+        margin-top: 10px;
+      }
+
+      button {
+        font-size: 35px;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        font-size: 20px;
+        color: blueviolet;
+      }
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .img1 {
+        width: 500px;
+        max-width: 100%;
+      }
+      .imgLogo {
+        width: 400px;
+      }
+
+      .img2 {
+        width: 250px;
+      }
+
+      .div2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .pubglogo {
+        width: 200px;
+        background-color: rgb(241, 237, 237);
+      }
+    </style>
+  </head>
+  <body>
+    <script src="./app.js"></script>
+    <div>
+      <img
+        class="imgLogo"
+        src="./img/playerunknown-s-battlegrounds-digital-chaos-video-game-counter-strike-global-offensive-dota-2-digital-chaos.jpg"
+        alt=""
+      />
+      <img
+        class="pubglogo"
+        src="./img/png-clipart-playerunknown-s-battlegrounds-playerunknown-s-battlegrounds.png"
+        alt=""
+      />
+      <img
+        class="img1"
+        src="./img/pngimg.com - counter_strike_PNG37.png"
+        alt=""
+      />
+    </div>
+
+    <h1>Choose one of the weapons</h1>
+    <select id="userWeapon">
+      <option value="1">Knife</option>
+      <option value="2">Sword</option>
+      <option value="3">Stick</option>
+      <option value="4">Spoon</option>
+      <option value="5">Axe</option>
+      <option value="6">Pistol</option>
+      <option value="7">Grenade</option>
+      <option value="8">Sniper</option>
+      <option value="9">AK-74</option>
+      <option value="10">Arm or fist</option>
+    </select>
+
+    <button onclick="playGame()">Start Game (Good luck)</button>
+    <p id="result"></p>
+
+    <div class="div2">
+      <img class="img2" src="./img/images.jpg" alt="#" />
+      <img class="img4" src="./img/Counter-Strike-PNG-Picture.png" alt="#" />
+      <img class="img3" src="./img/images (1).jpg" alt="#" />
+    </div>
+  </body>
+</html>
